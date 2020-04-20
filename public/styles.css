@@ -1,0 +1,82 @@
+body {
+  font-family: "Overpass", sans-serif;
+  color: #333;
+  background: #fefefe;
+  padding: 32px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 96px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .links a {
+  color: inherit;
+  font-size: 24px;
+  padding: 8px;
+}
+
+nav .links a:hover {
+  color: #17b4db;
+  transition: color 0.5s;
+}
+
+footer {
+  margin-top: 32px;
+}
+
+.cover {
+  text-align: right;
+  margin-top: 64px;
+}
+
+.cover .description h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.cover .description {
+  text-align: left;
+}
+
+.cover img {
+  width: 50vw;
+  margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 64px;
+  }
+
+  .cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 72px 0;
+    text-align: left;
+  }
+
+  .cover .description {
+    margin-right: 72px;
+  }
+
+  .cover .description h1 {
+    font-size: 84px;
+  }
+
+  .cover img {
+    width: 30vw;
+    margin-top: 0;
+  }
+}
